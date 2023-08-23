@@ -1,15 +1,49 @@
 import React from 'react';
 import './Firebase.css';
-
+import storeshopimg from '../../images/storeshopimg.png';
+import onlineExam from '../../images/onlineexam.png';
 function Firebase(){
     return(
         <>
         <div className='firebase-container'>
 
-        
+            {/* firebase containers headers */}
             <div className='firebase-header'>
                 <h1>Firebase Projects</h1>
                 <p>"Proficiently developed React websites with seamless Firebase integration. Combining dynamic frontend using React with Firebase's robust backend for optimal web performance."</p>
+            </div>
+            {/* firebase each container */}
+            <div className='all-firebase-each-container'>
+                <div className='firebase-con-projects-each-div'>
+                    <div className='firebase-con-projects-each-div-header'>
+                        <h1>Local Online Store</h1>
+                        <p>By combining React frontend with Firebase backend, the local store website 
+                        displays products seamlessly. Dynamic rendering of product details via React 
+                        components from Firebase's Firestore database enables easy user cart 
+                        management. This synergy streamlines shopping and simplifies shopkeeper tasks 
+                        for an enhanced experience.</p>
+                        <div className='firebase-con-projects-each-div-header-btn'>
+                            <p><span><a href="https://github.com/PanchaliUpendra/Local-Store-Shop" target="_blank" rel="noopener noreferrer">Code</a></span></p>
+                            <p><span><a href="https://localonlinestore.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></span></p>
+                        </div>
+                    </div>
+                    <img src={storeshopimg} alt="firebase-each-icons" className='firebase-con-projects-each-div-img'/>
+                </div>
+                <div className='firebase-con-projects-each-div'>
+                    <div className='firebase-con-projects-each-div-header'>
+                        <h1>HouseRent--Firebase App</h1>
+                        <p>HouseRent utilizes Firebase and React.js to provide a user-friendly app for effortless house 
+                        hunting and rental management. The app leverages Firebase's backend capabilities to streamline 
+                        property searches, manage listings, and facilitate seamless communication between renters and landlords. 
+                        This integration simplifies the rental process, enhancing the overall user experience.</p>
+                        <div className='firebase-con-projects-each-div-header-btn'>
+                            <p><span><a href="https://github.com/PanchaliUpendra/Houserental" target="_blank" rel="noopener noreferrer">Code</a></span></p>
+                            <p><span><a href="https://houserental.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></span></p>
+                        </div>
+                    </div>
+                    <img src={onlineExam} alt="firebase-each-icons" className='firebase-con-projects-each-div-img'/>
+                </div>
+
             </div>
         </div>
         </>

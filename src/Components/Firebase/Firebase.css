@@ -69,3 +69,150 @@
     }
     
 }
+
+/* firebase each project container*/
+.all-firebase-each-container{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 20px;
+    padding-bottom: 5%;
+}
+.firebase-con-projects-each-div-header{
+    width: 100%;
+}
+.firebase-con-projects-each-div-header>h1{
+    background: var(--gold-linear, linear-gradient(315deg, #FFE5A1 0%, #BF841A 50.52%, #FFCD74 100%));
+    font-family: Cinzel;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.firebase-con-projects-each-div-header>p{
+    color:#EFF3FB ;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 227.273% */
+    text-transform: capitalize;
+    width: 100%;
+
+}
+
+.firebase-con-projects-each-div-img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+.firebase-con-projects-each-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: auto;
+}
+
+.firebase-con-projects-each-div-header-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* inside the btn's */
+.firebase-con-projects-each-div-header-btn>p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: transparent;
+    font-family: Cinzel;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #BF841A;
+    
+   }
+   
+   .firebase-con-projects-each-div-header-btn>p:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #BF841A;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+   }
+   
+   .firebase-con-projects-each-div-header-btn>p:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+   }
+   
+   .firebase-con-projects-each-div-header-btn>p span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 20px;
+    color: #BF841A;
+    font-size: 1.125em;
+    font-weight: 700;
+   
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+   }
+   .firebase-con-projects-each-div-header-btn>p span a{
+     color: inherit; 
+   }
+   
+   .firebase-con-projects-each-div-header-btn>p:hover span {
+    color: #fff;
+    animation: scaleUp 0.3s ease-in-out;
+   }
+
+   .firebase-con-projects-each-div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+@media screen and (max-width:1100px){
+    .firebase-con-projects-each-div{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        grid-template-rows: auto 1fr;
+    }
+}
+
+@media screen and (max-width:491.34px){
+    .firebase-con-projects-each-div-header>p{
+        font-size: 1rem;
+        line-height:30px;
+    }
+    .firebase-con-projects-each-div-header>h1{
+        font-size: 1.2rem;
+    }
+}

@@ -148,6 +148,10 @@
     font-weight: 800;
     cursor: pointer;
 }
+.mearnstack-project-links>button a{
+    color: inherit;
+
+}
 .mearnstack-project-links>button:hover{
     background-color: #e4a63a;
 }

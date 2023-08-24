@@ -1,7 +1,7 @@
 import React from "react";
 import './Mernstack.css';
-
-
+import cryptohunterimg from '../../images/cryptohunterimg.png';
+import onlineexamimg from '../../images/onlineexamimg.png';
 import onlineExam from '../../images/onlineexam.png';
 
 function Mernstack(){
@@ -17,7 +17,7 @@ function Mernstack(){
             <div className='mern-stack-pro-con'>
                 <div className='mernstack-projects'>
                     <h1>Online Exam Platform</h1>
-                    <img src={onlineExam} alt="onlineExam" className='merstack-project-img'/>
+                    <img src={onlineexamimg} alt="onlineexam" className='merstack-project-img'/>
                     <ul className='mernstack-developers-skills'>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -34,8 +34,8 @@ function Mernstack(){
                     effortlessly. Join us for a seamless and convenient way to 
                     assess and improve your knowledge.</p>
                     <div className='mearnstack-project-links'>
-                        <button>CODE</button>
-                        <button>Live</button>
+                        <button><a href="https://github.com/PanchaliUpendra/onlineExamPlatform" target="_blank" rel="noopener noreferrer">CODE</a></button>
+                        <button><a href="https://github.com/PanchaliUpendra/onlineExamPlatform" target="_blank" rel="noopener noreferrer">Live</a></button>
                     </div>
                 </div>
 
@@ -59,14 +59,15 @@ function Mernstack(){
                     listings, and communicate with landlords seamlessly, simplifying the entire rental 
                     experience.</p>
                     <div className='mearnstack-project-links'>
-                        <button>CODE</button>
-                        <button>Live</button>
+                    <button><a href="https://github.com/PanchaliUpendra/houserentmern" target="_blank" rel="noopener noreferrer">CODE</a></button>
+                        <button><a href="https://github.com/PanchaliUpendra/houserentmern" target="_blank" rel="noopener noreferrer">Live</a></button>
+                    
                     </div>
                 </div>
                 {/* project number 3 */}
                 <div className='mernstack-projects'>
                     <h1>Crypto Hunter</h1>
-                    <img src={onlineExam} alt="onlineExam" className='merstack-project-img'/>
+                    <img src={cryptohunterimg} alt="cryptohunter" className='merstack-project-img'/>
                     <ul className='mernstack-developers-skills'>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -83,8 +84,8 @@ function Mernstack(){
                     finance. Explore blockchain, trade coins, and grasp the future 
                     of money, all through the transformative power of crypto.</p>
                     <div className='mearnstack-project-links'>
-                        <button>CODE</button>
-                        <button>Live</button>
+                        <button><a href="https://github.com/PanchaliUpendra?tab=repositories" target="_blank" rel="noopener noreferrer">CODE</a></button>
+                        <button><a href="https://github.com/PanchaliUpendra?tab=repositories" target="_blank" rel="noopener noreferrer">Live</a></button>
                     </div>
                 </div>
                 {/* projects completed */}

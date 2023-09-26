@@ -17,6 +17,22 @@ function Firebase(){
             <div className='all-firebase-each-container'>
                 <div className='firebase-con-projects-each-div'>
                     <div className='firebase-con-projects-each-div-header'>
+                        <h1>Paradise Hotel menu</h1>
+                        <p>Welcome to the Paradise Hotel Menu, where we invite you to savor a world of 
+                        culinary delights inspired by our stunning location. Whether you're seeking the 
+                        freshest seafood at our Ocean Breeze Restaurant, the fusion of international flavors 
+                        at the Tropical Terrace Cafe, or the convenience of in-room dining, our menu offers a 
+                        diverse range of options to satisfy your palate. Don't forget to explore our Cocktail Bar, 
+                        where expertly crafted cocktails await. </p>
+                        <div className='firebase-con-projects-each-div-header-btn'>
+                            <p><span><a href="https://github.com/PanchaliUpendra/paradise" target="_blank" rel="noopener noreferrer">Code</a></span></p>
+                            <p><span><a href="https://sripra-paradise.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></span></p>
+                        </div>
+                    </div>
+                    <img src={paradiseimg} alt="firebase-each-icons" className='firebase-con-projects-each-div-img'/>
+                </div>
+                <div className='firebase-con-projects-each-div'>
+                    <div className='firebase-con-projects-each-div-header'>
                         <h1>Local Online Store</h1>
                         <p>By combining React frontend with Firebase backend, the local store website 
                         displays products seamlessly. Dynamic rendering of product details via React 
@@ -44,22 +60,7 @@ function Firebase(){
                     </div>
                     <img src={onlineExam} alt="firebase-each-icons" className='firebase-con-projects-each-div-img'/>
                 </div>
-                <div className='firebase-con-projects-each-div'>
-                    <div className='firebase-con-projects-each-div-header'>
-                        <h1>Paradise Hotel menu</h1>
-                        <p>Welcome to the Paradise Hotel Menu, where we invite you to savor a world of 
-                        culinary delights inspired by our stunning location. Whether you're seeking the 
-                        freshest seafood at our Ocean Breeze Restaurant, the fusion of international flavors 
-                        at the Tropical Terrace Cafe, or the convenience of in-room dining, our menu offers a 
-                        diverse range of options to satisfy your palate. Don't forget to explore our Cocktail Bar, 
-                        where expertly crafted cocktails await. </p>
-                        <div className='firebase-con-projects-each-div-header-btn'>
-                            <p><span><a href="https://github.com/PanchaliUpendra/paradise" target="_blank" rel="noopener noreferrer">Code</a></span></p>
-                            <p><span><a href="https://sripra-paradise.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a></span></p>
-                        </div>
-                    </div>
-                    <img src={paradiseimg} alt="firebase-each-icons" className='firebase-con-projects-each-div-img'/>
-                </div>
+                
             </div>
         </div>
         </>

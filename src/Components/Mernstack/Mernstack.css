@@ -34,7 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 10%;
     padding-right: 10%;
     gap:10px;
@@ -83,6 +83,7 @@
 .mernstack-developers-skills{
     display: flex;
     flex-wrap: wrap;
+   
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
@@ -91,19 +92,7 @@
 }
 
 .mernstack-developers-skills>li{
-    /* padding: 5px;
-    background-color: #BF841A;
-    font-family: Cinzel;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    margin: 1%;
-    border: #BF841A 1px solid; */
+   
     color:  #e8c188;
     font-weight: 500;
     font-size: 1.1rem;

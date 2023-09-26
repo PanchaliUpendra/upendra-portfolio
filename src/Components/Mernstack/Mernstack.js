@@ -2,7 +2,7 @@ import React from "react";
 import './Mernstack.css';
 import cryptohunterimg from '../../images/cryptohunterimg.png';
 import onlineexamimg from '../../images/onlineexamimg.png';
-import onlineExam from '../../images/onlineexam.png';
+import foodieimg from '../../images/foodieimg.jpeg';
 
 function Mernstack(){
 
@@ -35,14 +35,14 @@ function Mernstack(){
                     assess and improve your knowledge.</p>
                     <div className='mearnstack-project-links'>
                         <button><a href="https://github.com/PanchaliUpendra/onlineExamPlatform" target="_blank" rel="noopener noreferrer">CODE</a></button>
-                        <button><a href="https://github.com/PanchaliUpendra/onlineExamPlatform" target="_blank" rel="noopener noreferrer">Live</a></button>
+                        {/* <button><a href="https://github.com/PanchaliUpendra/onlineExamPlatform" target="_blank" rel="noopener noreferrer">Live</a></button> */}
                     </div>
                 </div>
 
                 {/*project number 2*/}
                 <div className='mernstack-projects'>
-                    <h1>HouseRent App</h1>
-                    <img src={onlineExam} alt="onlineExam" className='merstack-project-img'/>
+                    <h1>Foodie e-commerce</h1>
+                    <img src={foodieimg} alt="onlineExam" className='merstack-project-img'/>
                     <ul className='mernstack-developers-skills'>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -54,13 +54,13 @@ function Mernstack(){
                         <li>MongoDB</li>
                         <li>Material-UI</li>
                     </ul>
-                    <p className='mernstack-pro-des'><span>Description:</span> HouseRent is a user-friendly app 
-                    for convenient house hunting and rental management. Streamline property searches, manage 
-                    listings, and communicate with landlords seamlessly, simplifying the entire rental 
-                    experience.</p>
+                    <p className='mernstack-pro-des'><span>Description:</span> A groundbreaking e-commerce venture that transforms your online food and vegetable 
+                    shopping experience. Browse a diverse selection of fresh produce 
+                    and gourmet delights, effortlessly add your favorite products to 
+                    your cart, and tailor quantities to meet your specific needs.</p>
                     <div className='mearnstack-project-links'>
-                    <button><a href="https://github.com/PanchaliUpendra/houserentmern" target="_blank" rel="noopener noreferrer">CODE</a></button>
-                        <button><a href="https://github.com/PanchaliUpendra/houserentmern" target="_blank" rel="noopener noreferrer">Live</a></button>
+                    <button><a href="https://github.com/PanchaliUpendra/FoodieFullStack" target="_blank" rel="noopener noreferrer">CODE</a></button>
+                        {/* <button><a href="https://github.com/PanchaliUpendra/houserentmern" target="_blank" rel="noopener noreferrer">Live</a></button> */}
                     
                     </div>
                 </div>
@@ -85,7 +85,7 @@ function Mernstack(){
                     of money, all through the transformative power of crypto.</p>
                     <div className='mearnstack-project-links'>
                         <button><a href="https://github.com/PanchaliUpendra?tab=repositories" target="_blank" rel="noopener noreferrer">CODE</a></button>
-                        <button><a href="https://github.com/PanchaliUpendra?tab=repositories" target="_blank" rel="noopener noreferrer">Live</a></button>
+                        {/* <button><a href="https://github.com/PanchaliUpendra?tab=repositories" target="_blank" rel="noopener noreferrer">Live</a></button> */}
                     </div>
                 </div>
                 {/* projects completed */}

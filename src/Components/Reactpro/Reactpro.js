@@ -24,10 +24,11 @@ function Reactpro() {
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay, Controller, EffectCube,EffectFade,EffectCards,EffectCoverflow]}
-          effect="cards"
+          effect="fade"
           loop={true}
           spaceBetween={50}
           slidesPerView={1}
+          navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           controller

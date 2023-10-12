@@ -28,7 +28,6 @@ function Reactpro() {
           loop={true}
           spaceBetween={50}
           slidesPerView={1}
-          navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           controller

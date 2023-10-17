@@ -6,6 +6,7 @@ import Homepage from './Components/Homepage/Homepage';
 import Mernstack from './Components/Mernstack/Mernstack';
 import Firebase from './Components/Firebase/Firebase';
 import Reactpro from './Components/Reactpro/Reactpro';
+import Oldprojects from './Components/Oldprojects/Oldprojects';
 
 function App() {
   const [displayloading,setdiplayloading]=useState(true);
@@ -35,6 +36,7 @@ function App() {
       <Mernstack/>
       <Firebase/>
       <Reactpro/>
+      <Oldprojects/>
     </div>
   );
 }
